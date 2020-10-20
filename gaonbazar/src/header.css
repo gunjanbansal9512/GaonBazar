@@ -1,0 +1,57 @@
+.header {
+  height: 65px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: #000000;
+  z-index: 100;
+}
+.header_logo {
+  margin-top: 5px;
+  height: 60px;
+  object-fit: contain;
+}
+/* Options on the nav bar */
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header_option {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: whitesmoke;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+.header_option_Basket {
+  display: flex;
+
+  text-decoration: none;
+  color: whitesmoke;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+.header_link:hover {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.header_cart {
+  display: flex;
+  align-items: center;
+}
+.header_option_One {
+  font-size: 10px;
+}
+.header_option_Two {
+  font-size: 15px;
+  font-weight: 700;
+}
+.header_cart_two {
+  margin-left: 5px;
+  margin-top: 8px;
+}
